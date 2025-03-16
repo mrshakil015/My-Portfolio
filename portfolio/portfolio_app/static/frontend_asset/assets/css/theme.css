@@ -640,10 +640,9 @@ a.about-video {
 */
 
 
-.skill-box small {
-    font-size     : 14px;
-    text-transform: uppercase;
-    color         : #fff;
+.skill-box span {
+    font-size     : 18px;
+    color         : #98adc2;
     font-weight   : 500;
 }
 
@@ -652,11 +651,11 @@ a.about-video {
     text-transform: uppercase;
     font-weight   : 600;
     color         : #08d665;
-    margin        : 12px 0;
+    margin        : 5px 0;
 }
 
 .skill-box p {
-    font-size     : 15px;
+    font-size     : 14px;
     text-transform: capitalize;
     color         : #fff;
     font-weight   : 400;
@@ -674,58 +673,12 @@ a.about-video {
 }
 
 
-
-.primery-skill {
-    position: relative;
-    z-index: 2;
-}
-
-.primery-skill:after {
-    position: absolute;
-    content: "";
-    height: 500px;
-    width: 500px;
-    background: url(../img/bg/skill-bg1.svg);
-    bottom: -30%;
-    z-index: -1;
-    background-position: right;
-    background-size: contain;
-    left: -11%;
-    -webkit-animation: spin infinite ease 9s;
-    animation: spin infinite ease 9;
-    opacity: .2
-}
-
-
-
-
-
-.primery-skill .skill-box small {
-    font-size     : 14px;
-    text-transform: uppercase;
-    color         : #2d2e2f;
-    font-weight   : 500;
-    z-index:2;
-}
-
-.primery-skill .skill-box h5 {
-    font-size     : 20px;
-    text-transform: uppercase;
-    font-weight   : 600;
-    color         : #0b0d0e;
-    margin        : 12px 0;
-    -webkit-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
-    
-}
-
-.skill-area.primery-skill .row:last-child div.skill-box:before{
+.skill-area.section-padding .row:last-child div.skill-box:before{
     position: absolute;
     content: "";
     height: 60px;
     width: 60px;
-    background: #e9f7ef;
+    background: #141414;
     left: 10px;
     top:20px;
     z-index: -1;
@@ -736,12 +689,7 @@ a.about-video {
 
 }
 
-.skill-area.primery-skill {
-   overflow: hidden;
-}
-
-
-.skill-area.primery-skill .row:last-child div.skill-box:hover:before{
+.skill-area.section-padding .row:last-child div.skill-box:hover:before{
     height: 100%;
     width: 100%;
     left: 0;
@@ -751,34 +699,14 @@ a.about-video {
     transition: all .6s;
     border-radius: 0;
 }
-.primery-skill .skill-box:hover h5{
+.section-padding .skill-box:hover h5{
     color: #08d665;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
 }
-.primery-skill .skill-box p {
-    font-size     : 15px;
-    text-transform: capitalize;
-    color         : #0b0d0e;
-    font-weight   : 400;
-    line-height   : 1.6;
-    margin-bottom: 0;
-    z-index:2;
-}
 
-.primery-skill .skill-box {
-    padding   : 30px;
-    background: #fff;
-    box-shadow: 0px 65px 64.5px rgba(0,0,0,0.1);
-    -webkit-transform : translateY(0);
-    -ms-transform : translateY(0);
-    transform : translateY(0);
-    -webkit-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
-}
-.primery-skill .skill-box:hover{
+.section-padding.skill-box:hover{
     -webkit-transform : translateY(0);
     -ms-transform : translateY(0);
     transform : translateY(0);
@@ -794,8 +722,11 @@ a.about-video {
     transition: all .3s;
     background: #131617;
 }
-.skill-box.skill-box2:hover{
-    background: #fff;
+.section-padding .skill-box.skill-box2 {
+    border-left: 3px solid #08d665;
+    /* border-right: 3px solid #08d665; */
+    margin-top: 15px;
+    border-radius: 10px;
 }
 
 .technical-skills {
@@ -851,16 +782,16 @@ a.about-video {
 }
 
 
-.skill-area.primery-skill.section-padding {
+.skill-area.section-padding {
     counter-reset: skill;
 }
 
-.skill-area.primery-skill.section-padding .row:last-child div.skill-box {
+.skill-area.section-padding .row:last-child div.skill-box {
     position: relative;
     z-index: 2;
 }
 
-.skill-area.primery-skill.section-padding .row:last-child div.skill-box:after {
+.skill-area.section-padding .row:last-child div.skill-box:after {
     content: "0" counter(skill);
     counter-increment: skill;
     position: absolute;
@@ -876,7 +807,7 @@ a.about-video {
 
 }
 
-.skill-area.primery-skill.section-padding .row:last-child div.skill-box:hover:after {
+.skill-area.section-padding .row:last-child div.skill-box:hover:after {
     color: #0b0d0e;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
