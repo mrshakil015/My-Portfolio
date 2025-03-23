@@ -14,7 +14,7 @@ Description:
 */
 @media only screen and (min-width: 1400px) {
     .single-welcome-area{
-        height: 1000px;
+        height: 800px;
     }
     .wlc-title h1{
         font-size: 80px;
