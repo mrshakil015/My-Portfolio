@@ -257,7 +257,7 @@ jQuery(document).ready(function($) {
     $('#circle1').circleProgress({
       value: 0.6,
       fill: {
-        color: '#08d665'
+        color: '#127e80'
       },
       emptyFill: '#ffffff',
     }).on('circle-animation-progress', function(event, progress) {
@@ -268,7 +268,7 @@ jQuery(document).ready(function($) {
     $('#circle2').circleProgress({
       value: 0.7,
       fill: {
-        color: '#08d665'
+        color: '#127e80'
       },
       emptyFill: '#ffffff',
     }).on('circle-animation-progress', function(event, progress) {
@@ -279,7 +279,7 @@ jQuery(document).ready(function($) {
     $('#circle3').circleProgress({
       value: 0.3,
       fill: {
-        color: '#08d665'
+        color: '#127e80'
       },
       emptyFill: '#ffffff',
     }).on('circle-animation-progress', function(event, progress) {
@@ -290,7 +290,7 @@ jQuery(document).ready(function($) {
     $('#circle4').circleProgress({
       value: 0.9,
       fill: {
-        color: '#08d665'
+        color: '#127e80'
       },
       emptyFill: '#ffffff',
     }).on('circle-animation-progress', function(event, progress) {
