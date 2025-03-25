@@ -34,9 +34,9 @@ a.cbtn.cbnt1 i {
 
 
 a.cbtn.cbnt1:hover{
-    border-color: #22cd6f;
+    border-color: #127e80;
     background: transparent;
-    color: #22cd6f;
+    color: #127e80;
     transition: all .3s;
 }
 

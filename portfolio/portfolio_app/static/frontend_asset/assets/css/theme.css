@@ -380,6 +380,9 @@ a.contact-btn:hover{
     line-height : 28px;
     margin:40px 0;
 }
+.wlc-title p strong {
+    color: #59a4a6;
+}
 .wlc-author-1 {
     position: absolute;
     right   : 5%;
