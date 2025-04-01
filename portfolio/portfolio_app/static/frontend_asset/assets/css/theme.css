@@ -521,7 +521,6 @@ a.about-video {
     content          : "";
     height           : 300px;
     width            : 300px;
-    background       : url(../img/about/about-shape.svg) no-repeat;
     background-repeat: no-repeat;
     bottom           : -20%;
     left             : -15%;
