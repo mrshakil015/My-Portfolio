@@ -36,6 +36,8 @@ FOOTER AREA CSS
 */
 
 /*
+
+
 ==========================
 	BANNER AREA CSSS
 ==========================
@@ -2019,4 +2021,32 @@ p.single-soicial-text {
 .owl-carousel .owl-item img{
     display: inline-block;
     width: auto;
+}
+
+
+.badge {
+    background: transparent !important;
+    color: #127e80;
+    border: 1px solid #127e80;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+}
+
+.btn-primary {
+    background: transparent !important;
+    color: #127e80;
+    border: 1px solid #127e80;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+}
+.btn-primary:hover{
+    background: #127e80 !important;
+    color: rgb(255, 255, 255);
+    border: none;
 }
