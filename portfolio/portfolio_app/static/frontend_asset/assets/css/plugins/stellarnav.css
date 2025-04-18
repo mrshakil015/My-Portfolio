@@ -55,7 +55,7 @@
     content: "";
     height: 1px;
     width: 20%;
-    background: #127e80;
+    background: linear-gradient(to right, #11998e, #38ef7d);
     left: 0;
     bottom: 0;
     visibility: hidden;

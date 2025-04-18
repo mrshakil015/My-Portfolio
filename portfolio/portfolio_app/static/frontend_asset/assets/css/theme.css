@@ -113,7 +113,7 @@ FOOTER AREA CSS
 .banner-icon {
     position  : absolute;
     left      : 0;
-    background: #127e80;
+    background: linear-gradient(to right, #11998e, #38ef7d);
     padding   : 10px 12px;
     top       : 0;
     color     : #fff;
@@ -147,7 +147,7 @@ a.contact-btn {
     color      : #fff;
     font-size  : 13px;
     font-weight: 400;
-    background : #127e80;
+    background: linear-gradient(to right, #11998e, #38ef7d);
     padding    : 10px 25px 10px 40px;
     transition : all .3s;
     position   : relative;
@@ -372,8 +372,12 @@ a.contact-btn:hover{
 }
 
 .wlc-title h1 span {
-    color: #127e80;
+    background: linear-gradient(to right, #11998e, #38ef7d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
 }
+
 .wlc-title p {
     font-weight : 400;
     font-size   : 18px;
@@ -383,7 +387,10 @@ a.contact-btn:hover{
     margin:40px 0;
 }
 .wlc-title p strong {
-    color: #59a4a6;
+    background: linear-gradient(to right, #11998e, #38ef7d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
 }
 .wlc-author-1 {
     position: absolute;
@@ -654,7 +661,10 @@ a.about-video {
     font-size     : 20px;
     text-transform: uppercase;
     font-weight   : 600;
-    color         : #127e80;
+    background: linear-gradient(to right, #11998e, #38ef7d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
     margin        : 5px 0;
 }
 
@@ -1482,7 +1492,7 @@ a.readmore-btn {
 }
 a.subscribe-btn {
     padding: 15px 60px 15px 30px;
-    background: #107173;
+    background: linear-gradient(to right, #11998e, #38ef7d);
     border-radius: 5px;
     color: #fff;
     text-transform: uppercase;
@@ -1496,7 +1506,10 @@ a.subscribe-btn:hover,
 a.subscribe-btn:hover i{
     border-color: #107173;
     background: transparent;
-    color: #107173;
+    background: linear-gradient(to right, #11998e, #38ef7d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
@@ -1711,7 +1724,10 @@ span.single-social-icon i {
 }
 
 .heading h2 span {
-   color: #127e80;
+    background: linear-gradient(to right, #11998e, #38ef7d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
 }
 
 .heading {
@@ -1827,7 +1843,7 @@ a.up-btn {
     position: fixed;
     bottom: 0;
     right: 10%;
-    background: #127e80;
+    background: linear-gradient(to right, #11998e, #38ef7d);
     color: #fff;
     height: 60px;
     width: 60px;
@@ -2026,7 +2042,7 @@ p.single-soicial-text {
 
 .badge {
     background: transparent !important;
-    color: #127e80;
+    color: #fff;
     border: 1px solid #127e80;
     font-weight: 500;
     margin-bottom: 0.5rem;
@@ -2036,17 +2052,30 @@ p.single-soicial-text {
 }
 
 .btn-primary {
-    background: transparent !important;
-    color: #127e80;
+    background: transparent;
     border: 1px solid #127e80;
     font-weight: 500;
     margin-bottom: 0.5rem;
     margin-right: 0.5rem;
     border-radius: 20px;
     padding: 0.5rem 1rem;
+    position: relative;
+    overflow: hidden;
+    
+    background: linear-gradient(to right, #11998e, #38ef7d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
 }
-.btn-primary:hover{
-    background: #127e80 !important;
-    color: rgb(255, 255, 255);
+
+.btn-primary:hover {
+    background: linear-gradient(to right, #11998e, #38ef7d);
+    color: #fff;
+    -webkit-background-clip: border-box;
+    -webkit-text-fill-color: #fff;
+    transition: all 0.3s ease;
     border: none;
 }

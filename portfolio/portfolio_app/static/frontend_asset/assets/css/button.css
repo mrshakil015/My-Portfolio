@@ -8,13 +8,16 @@ a.cbtn {
 }
 
 a.cbtn.cbnt1 {
-    background: #127e80;
+    background: linear-gradient(to right, #11998e, #38ef7d);
     padding-right: 70px;
     position: relative;
     z-index: 2;
-    border: 1px solid transparent;
+    border: none;
     color:#fff;
 }
+/* #11998e
+→ 
+#38ef7d */
 
 a.cbtn.cbnt1 i {
     position: absolute;
@@ -36,13 +39,17 @@ a.cbtn.cbnt1 i {
 a.cbtn.cbnt1:hover{
     border-color: #127e80;
     background: transparent;
-    color: #127e80;
+    background: linear-gradient(to right, #11998e, #38ef7d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
     transition: all .3s;
+    border: 1px solid #127e80;
 }
 
 
 a.cbtn.pricing-btn {
-    background: #127e80;
+    background: linear-gradient(to right, #11998e, #38ef7d);
     padding-right: 70px;
     position: relative;
     z-index: 2;
