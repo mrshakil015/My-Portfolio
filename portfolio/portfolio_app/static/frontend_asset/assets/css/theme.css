@@ -487,9 +487,9 @@ h1.wlc-filltext {
     padding: 240px 0;
 }
 .about-area1{
-    background-image: url(assets/img/bg/about-bg.png);
+    background-image: url(../img/bg/about-bg.png);
     background-position: center;
-    background-size: cover;
+    background-size: cover
 }
 .about-img-section1{
     /* background-image: url(../img/about/about1.png); */
@@ -674,6 +674,11 @@ a.about-video {
     color         : #fff;
     font-weight   : 400;
     line-height   : 1.6;
+}
+.skill-area {
+    background         : url(../img/bg/about-bg.png);
+    background-size    : cover;
+    background-position: center;
 }
 .skill-area .row {
     display: flex;
@@ -1319,18 +1324,17 @@ span.circle.circle-4 {
     color: #0b0d0e;
 }
 
-.testimonials-area1{
-    background: url(../img/bg/testimonials-bg.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
 /*
 ==========================
     BLOG AREA CSS
 ==========================
 */
+.blog-area1{
+    background-image: url(../img/bg/about-bg.png);
+    background-position: center;
+    background-size: cover
+}
 .blog-area .owl-nav {
     position: absolute;
     top: -27%;
